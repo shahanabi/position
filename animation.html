@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: relative;
+            animation-name: eg;
+            animation-duration: 4s;
+            border-radius: 50px;
+        }
+        @keyframes eg{
+            0% {background-color: blue; left: 0px; top: 0px;}
+            25% {background-color: yellow; left: 200px; top: 0px;}
+            50% {background-color: blueviolet; left: 200px; top: 200px;}
+            75% {background-color: cyan; left: 0px; top: 200px;}
+            100% {background-color: blue; left: 0%; top: 0%;}
+        }
+    </style>
+</head>
+<body>
+    <h1>css animation</h1>
+    <div></div>
+    
+</body>
+</html>
