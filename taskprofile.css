@@ -1,0 +1,100 @@
+.div1{
+    width: 600px;
+    height: 75px;
+    background: grey;
+    
+    margin: auto;
+
+}
+.div2{
+    text-align: center;
+    width: 600px;
+    height: 1400px;
+    margin: auto;
+    
+    
+    
+
+}
+.img1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: small;
+    font-weight: bold;
+}
+.img2{
+    width: 15px;
+    height: 15px;
+}
+.img3{
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+    
+}
+.img4{
+    width: 15px;
+    height: 15px;
+   margin-left: 15px;
+}
+.div3{
+    width: 50px;
+    height: 50px;
+    background:white;
+    margin: auto;
+}
+.div3:hover{
+    background-color:rgb(226, 43, 220);
+    color: white;
+}
+.div4{
+    width: 50px;
+    height: 50px;
+    background:white;
+    margin-left: 350px;
+    margin-top: -50px;
+}
+.div4:hover{
+    background-color: rgb(226, 43, 220);
+    color: white;
+}
+.div5{
+    width: 50px;
+    height: 50px;
+    background:white;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+.div5:hover{
+    background-color:rgb(226, 43, 220);
+    color: white;
+}
+img{
+    height: 275px;
+    width: 175px;
+    
+}
+.grid-container{
+    display: grid;
+    grid: 280px / auto auto auto;
+    grid-gap: 1px;
+    padding: 10px;
+    width: 500px;
+}
+.grid-container div{
+    text-align: center;
+    padding: 2px;
+
+}
+    
+   
+
+
