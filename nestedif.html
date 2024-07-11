@@ -1,0 +1,30 @@
+<html>
+    <head>
+    <title>nested if</title>
+    </head>
+    <body style="text-align: center;">
+        <script>
+            function pop(y){
+                var x = y.value
+                if(x>18)
+                {
+                   if(x>=21)
+                   {
+                     alert("eligible for marrege")
+                   }
+                   else
+                   {
+                     alert("major but not eligible for marrege")
+                   }
+                }
+                else
+                {
+                    alert("minor ")
+                }
+            }
+        </script>
+        
+        <input type="text" id="a" placeholder="enter the age">
+        <button onclick="pop(document.getElementById('a'))">click</button>
+    </body>
+</html>
